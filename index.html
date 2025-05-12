@@ -5,79 +5,78 @@
   <title>WonderTech</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .card, .info-box {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
 
+    .info-box:hover, .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.15);
+    }
+
+    .bg-primary-subtle {
+      background-color: #e7f1ff !important;
+    }
+  </style>
 </head>
 <body class="bg-light text-dark">
 
   <div class="container py-5">
-    <div class="text-center mb-4">
-      <img src="logo.png" alt="Logo WonderTech" style="max-width: 150px;" class="mb-3">
-      <p class="lead">Assistance informatique à domicile ou à distance</p>
+    <div class="text-center mb-5">
+      <img src="image/logo.png" alt="Logo WonderTech" style="max-width: 150px;" class="mb-3">
+      <h1 class="h4 fw-bold">Assistance informatique</h1>
+      <p class="lead text-muted">À domicile ou à distance – rapide, claire, humaine</p>
     </div>
 
-    
-<div class="mt-4 p-3 bg-light border-start border-4 border-primary rounded">
-  <h5 class="fw-bold">Marre d’attendre un technicien ?</h5>
-  <p>
-    Fini les longues attentes et les frais abusifs ! Pour un souci de TV, d’ordinateur ou de connexion Wi-Fi, je vous dépanne rapidement, à domicile ou à distance, à prix clair et raisonnable.
-  </p>
-  <p>
-    Plus de stress, juste une solution rapide et efficace.
-  </p>
-</div>
+    <div class="info-box p-4 bg-white border-start border-4 border-primary rounded mb-4">
+      <h5 class="fw-bold">Marre d’attendre un technicien ?</h5>
+      <p>Fini les longues attentes et les frais abusifs ! Pour un souci de TV, d’ordinateur ou de connexion Wi-Fi, je vous dépanne rapidement, à domicile ou à distance, à prix clair et raisonnable.</p>
+      <p>Plus de stress, juste une solution rapide et efficace.</p>
+    </div>
 
-<div class="mt-4 mb-5 p-3 bg-light border-start border-4 border-primary rounded">
-  <h5 class="fw-bold">Aide aux personnes âgées ou isolées</h5>
-  <p>
-    Vous vivez seul(e) ou loin de votre famille ? Je vous accompagne pour tout souci informatique : dépannage à domicile, gestion avec les fournisseurs, démarches administratives…
-  </p>
-  <p>
-    Un service humain, simple et sans dépendre des proches.
-  </p>
-</div>
-    
-    <div class="card shadow-sm">
+    <div class="info-box p-4 bg-white border-start border-4 border-primary rounded mb-5">
+      <h5 class="fw-bold">Aide aux personnes âgées ou isolées</h5>
+      <p>Vous vivez seul(e) ou loin de votre famille ? Je vous accompagne pour tout souci informatique : dépannage à domicile, gestion avec les fournisseurs, démarches administratives…</p>
+      <p>Un service humain, simple et sans dépendre des proches.</p>
+    </div>
+
+    <div class="card shadow p-4">
       <div class="card-body">
-        <h2 class="h4">Services proposés :</h2>
-        <ul class="list-group list-group-flush">
+        <h2 class="h5 fw-bold mb-3">Services proposés :</h2>
+        <ul class="list-group list-group-flush mb-4">
           <li class="list-group-item">💻 Dépannage PC (lenteur, plantage, virus…)</li>
-          <li class="list-group-item">🌐 Résolution de problèmes de connexion Internet / Wi-Fi</li>
-          <li class="list-group-item">📺 Résolution de problèmes de TV </li>
-          <li class="list-group-item">📱 Problèmes de smartphones (GSM), tablettes, imprimantes</li>
-          <li class="list-group-item">🧑‍🏫 Formation à l'utilisation d'applications courantes (email, visio, démarches en ligne…)</li>
-          <li class="list-group-item">🧰 Conseils pour l'achat de matériel adapté</li>
-          <li class="list-group-item">🔒 Conseils sur la sécurité (gestion de mots de passe, phishing…)</li>
+          <li class="list-group-item">🌐 Problèmes de connexion Internet / Wi-Fi</li>
+          <li class="list-group-item">📺 Problèmes de TV</li>
+          <li class="list-group-item">📱 Smartphones, tablettes</li>
+          <li class="list-group-item">🧑‍🏫 Formation aux outils (email, visio…)</li>
+          <li class="list-group-item">🧰 Conseils d’achat de matériel</li>
+          <li class="list-group-item">🔒 Sécurité (phishing, mots de passe…)</li>
           <li class="list-group-item">🌐 Développement de site vitrine</li>
-          <li class="list-group-item">
-            <i class="fas fa-server"></i> <i class="fab fa-discord"></i> Déploiement, configuration serveur Discord
-          </li>
-          <li class="list-group-item">🎯 Autre selon votre cas, sur demande</li>
+          <li class="list-group-item">🎯 Autres besoins sur demande</li>
         </ul>
 
-        <div class="mt-4 p-3 bg-primary-subtle border-start border-4 border-primary rounded">
+        <div class="info-box p-3 bg-primary-subtle border-start border-4 border-primary rounded mb-3">
           <h5 class="fw-bold">Tarifs et déplacements :</h5>
-          <p>Les interventions se font sur les communes suivantes : <strong>Mouscron, Herseaux, Luingne, Dottignies</strong>.</p>
-          <p><strong>Frais de déplacement :</strong> 5€ pour les zones mentionnées.</p>
-          <p><strong>Tarif horaire :</strong> 15€ par heure d'intervention.</p>
+          <p><strong>Zones :</strong> Mouscron, Herseaux, Luingne, Dottignies</p>
+          <p><strong>Déplacement :</strong> 5€ – <strong>Intervention :</strong> 15€/heure</p>
         </div>
 
-        <div class="mt-4 p-3 bg-primary-subtle border-start border-4 border-primary rounded">
+        <div class="info-box p-3 bg-primary-subtle border-start border-4 border-primary rounded">
           <h5 class="fw-bold">Contact</h5>
-          <p>Pour toute demande d'aide, contactez-moi :</p>
-          <p>
-            📧 <a href="mailto:contact.wondertech@gmail.com?subject=Aide%20informatique" class="text-decoration-none text-primary">
-              Envoyer un email
-            </a>
-   
+          <p>📧 <a href="mailto:contact.wondertech@gmail.com?subject=Aide%20informatique" class="text-decoration-none text-primary">
+            Envoyer un email
+          </a>
+          </p>
         </div>
       </div>
     </div>
   </div>
-  <!-- footer  fixe bottom  tout droit reservés WonderTech-->
-  <footer class="bg-light text-center text-lg-start fixed-bottom">
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.1);">
-      © 2025 WonderTech - Tous droits réservés
+
+  <footer class="bg-light text-center fixed-bottom shadow-sm">
+    <div class="text-center p-3 text-muted" style="background-color: rgba(0, 0, 0, 0.03);">
+      © 2025 WonderTech – Tous droits réservés
     </div>
   </footer>
 
